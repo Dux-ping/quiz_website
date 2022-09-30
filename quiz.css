@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: sans-serif;
   background: #fcde67;
@@ -11,24 +12,19 @@ body {
   background-repeat: no-repeat;
   height: 90vh;
   color: #030e12;
+  cursor: url(cursor.svg), auto;
 }
-/* img {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
-}
-.img {
-  position: fixed;
-} */
 
 .option:hover {
   color: white;
 }
+
 ol {
   position: relative;
-  padding: 0 1.5rem;
+  padding: 2rem;
   color: #030e12;
 }
+
 span {
   display: block;
   padding: 0.1rem 0.7rem;
@@ -72,6 +68,7 @@ button {
   margin-bottom: 0.2rem;
   font-size: larger;
 }
+
 #answers {
   margin-top: 1rem;
 }

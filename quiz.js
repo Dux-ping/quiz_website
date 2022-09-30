@@ -57,10 +57,7 @@ let span = document.querySelectorAll("span");
 let i = 0;
 let score = 0;
 
-function onLoadQuiz() {
-  quizContainer.style.display = "none";
-}
-
+//start quiz
 function start() {
   quizContainer.style.display = "block";
   startButton.style.display = "none";
@@ -88,7 +85,7 @@ function calcScore(e) {
   } else {
     document.getElementById(e.id).style.background = "#030e12";
   }
-  setTimeout(nextQuestion, 350);
+  setTimeout(nextQuestion, 300);
 }
 
 //function display next question
